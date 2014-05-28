@@ -27,7 +27,7 @@
     </div><!-- #site-description -->
 	
 	<div id="search">
-		<input type="search" placeholder="Par lieu" /><br/>
+		<input type="search" placeholder="Par ville" /><br/>
 		<input type="search" placeholder="Par pseudo" /><br/>
 		<input type="submit" value="Rechercher" />     
 		<input type="submit" value="Au hasard" />
@@ -68,6 +68,7 @@
 	<div id="videos">
 	<h1>Videosurveillance de Odile</h1>
 	<h3>Actuellement, 42 Watchers veillent.</h3>
+	<h3>0 commentaires</h3>
 	<input type="submit" value="Signaler un danger" />
     <ul class="grid">
       <li>
@@ -127,56 +128,103 @@
 		<input type="submit" id="add-cam" value="Ajouter une caméra" />
     </div><!-- #videos -->
 
-
 	<!-- Comments -->
+
+	<div id="comments">
+	<h2>Commentaires</h2>
+	<ol class="commentlist">
+			<li class="comment">
+				<div class="comment_body">
+				<div class="comment_stuff">
+					<span class="comment_author">XSDSXS <span class="says">dit</span>
+						</span><br />
+						<small class="commentmetadata">	Wednesday, May 28th 2014 at 7:05 pm	</small>
+    	
+					<div class="comment_text">
+						<p>lalala</p>
+					</div><!-- comment-text -->
+				</div><!-- comment_stuff -->
+			</div><!--comment_body -->
+		</li><!-- #comment-## -->
+	</ol>
+	
+	<div id="respond">
+
+		<h2>Laisser un commentaire</h2>
+
+		<div class="cancel-comment-reply">
+		
+		<form action="" method="post" id="commentform">
+			<p class="loggedinas">Connecté en tant que : Odile. <br /><a href="" title="Log out of this account">Se déconnecter</a></p>
+			<div class="comments_textarea">
+				<textarea name="comment" id="comment" rows="10" tabindex="4" class="supernova-input">
+				</textarea>
+			</div>
+			<div>
+				<input name="submit" type="submit" id="submit" tabindex="5" value="Poster" />
+			</div>
+		</form>
+	</div>
+	</div><!-- #respond -->
+	</div><!-- #comments -->
+	
+
 	</div><!-- #main-perso -->
  
     <div id="widgets">
-   
-    <div class="widget">
-      <h1 class="widget-title">Abonn&eacute;s</h1>
+	<a>
+    <div class="widget" id="followers">
+      <h1 class="widget-title">Abonnés</h1>
       <div class="widget-content">
-		<span id="subscribers-number">42 Watchers sont actuellement
-		abonnés à cette chaîne.</span><!-- #subscribers-number -->
-
-	<ul class="grid">
-
-	  <li><!-- thumbnail -->
-	    <img src="img/rose.jpg" class="avatar" />
-	    <div class="info">
-	      <h1 class="pseudo"><!-- Pseudo --></h1>
-	      <footer class="meta">
-	        <span class="followers"><!-- Number of subscriptions -->
-	        </span><!-- followers -->
-	      </footer><!-- .meta -->
-	    </div>
-	  </li>
-	  
-	  <li><!-- thumbnail -->
-	    <img src="img/rose.jpg" class="avatar" />
-	    <div class="info">
-	      <h1 class="pseudo"><!-- Pseudo --></h1>
-	      <footer class="meta">
-	        <span class="followers"><!-- Number of subscriptions -->
-	        </span><!-- followers -->
-	      </footer><!-- .meta -->
-	    </div>
-	  </li>
-	  
-	  <li><!-- thumbnail -->
-	    <img src="img/rose.jpg" class="avatar" />
-	    <div class="info">
-	      <h1 class="pseudo"><!-- Pseudo --></h1>
-	      <footer class="meta">
-	        <span class="followers"><!-- Number of subscriptions -->
-	        </span><!-- followers -->
-	      </footer><!-- .meta -->
-	    </div>
-	  </li>	  
-	</ul><!-- .grid -->
-
-      </div><!-- #widget-content -->
+		<div id="followers-number">1337</div> Abonnés
+      </div><!-- .widget-content -->
     </div><!-- .widget -->
+	</a>
+	<div class="widget">
+	 <h1 class="widget-title">Suggestions de surveillance</h1>
+		<div class="widget-content">
+			<ul class="grid">
+
+				<li><!-- thumbnail -->
+				<div class="grid-elt">
+					<h3 class="pseudo">Gerard</h1>
+					<div class="avatar">
+						<a><img src="img/rose.jpg"/></a>
+					</div><!-- .avatar -->
+					<footer class="meta">
+						<span class="watchers">12 605 Watchers</span><!-- watchers -->
+					</footer><!-- .meta -->
+				</div><!-- .grid-elt -->
+				</li>
+	  
+				<li><!-- thumbnail -->
+				<div class="grid-elt">
+					<h3 class="pseudo">Gerard</h1>
+					<div class="avatar">
+						<a><img src="img/rose.jpg"/></a>
+					</div><!-- .avatar -->
+					<footer class="meta">
+						<span class="watchers">12 605 Watchers</span><!-- watchers -->
+					</footer><!-- .meta -->
+				</div><!-- .grid-elt -->
+				</li>
+
+				<li><!-- thumbnail -->
+				<div class="grid-elt">
+					<h3 class="pseudo">Gerard</h1>
+					<div class="avatar">
+						<a><img src="img/rose.jpg"/></a>
+					</div><!-- .avatar -->
+					<footer class="meta">
+						<span class="watchers">12 605 Watchers</span><!-- watchers -->
+					</footer><!-- .meta -->
+				</div><!-- .grid-elt -->
+				</li>
+	
+			</ul><!-- .grid -->
+		</div><!-- .widget-content -->
+	</div><!-- .widget -->
+	
   </div><!-- #widgets -->
   
 </div><!-- .perso -->

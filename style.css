@@ -138,7 +138,7 @@ footer #legal a {
   background: black url("img/eyes.png") no-repeat 80%; }
   
 #advertise-perso #search-description {
-    margin: 0 0 0 3%;
+    margin: 0 0 0 4%;
     padding-top: 50px;
     font-size: 34.25px;
     font-size: 2 rem;
@@ -360,10 +360,48 @@ footer #legal a {
 #widgets {
   float:left;
   width: 20%;
+}
+
+.widget {
+  width: 100%;
   background-color: white; 
   border-top: 2px solid #e5e4e4;
   border-bottom: 2px solid #e5e4e4;
+  margin-bottom: 10px;
 }
+
+.widget h1.widget-title {
+	color:#d2213e;
+    font-family: Bebas, Helvetica, sans-serif;
+	text-align:center;
+	margin-bottom:0;
+}
+
+.widget .widget-content {
+	font-family:Bebas, Helvetica;
+	color: #222222;
+	font-size: 1.2em;
+}
+
+
+.widget#followers {
+	background:#d2213e;
+}
+
+.widget#followers h1.widget-title {
+	display:none;
+}
+
+.widget#followers .widget-content {
+		text-align:center;
+		font-size:2em;
+}
+
+.widget#followers .widget-content #followers-number {
+	color:#f7f7f7;
+}
+
+
 
 /* Videos */
 video {
@@ -436,4 +474,100 @@ video {
 }
 #navigation > li.sub:hover ul {
  top: 3em;
+}
+
+/* Comments */
+
+#comments{
+	margin-bottom:20px;
+	margin-top:20px
+	margin-right:20px;
+	margin-left:20px;
+}
+
+#comments input[type="submit"]{
+	font-size:18px;
+	margin-left:0;
+	float:left;
+}
+
+.comments_textarea{
+	margin-bottom:10px;
+}
+
+.comments_textarea textarea{
+	max-width:98%; 
+	min-width:85%;
+}
+
+.comment-body{
+	border:1px solid #ccc;
+	margin-bottom:20px;
+}
+
+.comment_stuff{
+	background:none;
+	display:inline-block;
+	max-width:72%;
+	padding:0 15px 15px 0;
+}
+
+.comment_author{
+	text-transform:capitalize;
+	font-size:15px;
+	font-weight:700;
+}
+
+.says{
+	font-size:14px;
+	font-weight:400;
+	text-transform:none;
+	font-style:italic;
+	font-family:Tahoma, verdana, arial, sans-serif;
+}
+
+.comment_text{
+	color:#333;
+	font-family:Tahoma, verdana, arial, sans-serif;
+	margin:5px 0;
+}
+
+ol.commentlist{
+	list-style:none;
+	margin:0;
+	padding:0;
+	margin-bottom: 60px;
+}
+
+.comment{
+	border-bottom:1px dotted #ccc;
+	padding-top:15px;
+	padding-bottom:10px;
+}
+
+.commentlist li{
+	list-style:none;
+}
+
+.loggedinas{
+	text-transform:uppercase;
+	color:#939393!important;
+	margin:5px 0;
+}
+
+.loggedinas a {
+	text-decoration:none;
+	color:#939393;
+}
+
+.loggedinas a:hover {
+	color:#222222;
+}
+
+.commentmetadata{
+	color:#838080;
+	font-family:Tahoma, verdana, arial, sans-serif;
+	font-size:0.8em!important;
+	display:block;
+	margin-top:.3em;
 }
