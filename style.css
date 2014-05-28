@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'Bebas';
+  src: url("fonts/BebasNeue.otf");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0; }
+
+#branding {
+  margin: 0;
+  padding: 5px;
+  background: white;
+  border-bottom: 2px solid #e5e4e4; }
+  #branding #site-title {
+    margin: 0;
+    padding-top: 5px;
+    font-size: 93px;
+    font-size: 6 rem;
+    line-height: 0.8em;
+    color: #ef003c;
+    font-family: Bebas, Helvetica, sans-serif; }
+    #branding #site-title .valarmorghulis {
+      color: #d2213e; }
+  #branding #site-description {
+    margin: 0;
+    font-size: 31px;
+    font-size: 2 rem;
+    font-family: Bebas, Helvetica, sans-serif;
+    color: #222222;
+    line-height: 0.8em; }
+
+/* Advertise */
+#advertise {
+  margin: 15px 6em 15px 6em;
+  padding: 5px;
+  background-color: white; }
+
+/* Content Main */
+#main {
+  margin: 0 6em 0 6em;
+  padding: 5px;
+  background-color: white;
+  border-top: 2px solid #e5e4e4;
+  border-bottom: 2px solid #e5e4e4; }
+
+/* Grid */
+.grid {
+  -webkit-column-count: 3;
+  /* Chrome, Safari, Opera */
+  -moz-column-count: 3;
+  /* Firefox */
+  column-count: 3; }
+
+.grid li {
+  display: inline; }
+
+/* Footer */
+/* Main Perso */
+#perso {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: green;
+  white-space: nowrap; }
+
+#perso > div {
+  white-space: nowrap;
+  display: inline-block; }
+
+#main-perso {
+  width: 64%;
+  /*margin-top:10px;*/
+  margin-left: 1%;
+  /*margin-right:10px;
+  margin-bottom:10px;
+  
+  padding-top:50px;
+  padding-bottom:10px;
+  padding-right:50px;
+  padding-left:50px;
+  border-radius: 50px;*/
+  background-color: white; }
+
+/* Widgets */
+#widgets {
+  width: 34%;
+  background-color: red; }
+
+/* Videos */
+video {
+  width: 320;
+  height: 240; }
