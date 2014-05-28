@@ -4,6 +4,11 @@
   font-weight: normal;
   font-style: normal; }
 
+a {
+cursor:pointer;
+}
+
+
 body {
   background-color: #f7f7f7;
   margin: 0;
@@ -80,7 +85,8 @@ footer #legal a {
 	font-family: Helvetica;
 	font-size:2em;
 	
-	border-radius: 5px;
+	border-top: 2px solid #e5e4e4;
+	border-bottom: 2px solid #e5e4e4;
 	
 	float:right;
 	display:inline-block;
@@ -123,6 +129,49 @@ footer #legal a {
 	color:#e5e4e4;
 	font-size:28px;
 	border-radius:3px;
+}
+
+#join input[type="submit"] a {
+	text-decoration:none;
+}
+/* Advertise-perso */
+
+#advertise-perso {
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  background: black url("img/eyes.png") no-repeat 80%; }
+  
+#advertise-perso #search-description {
+    margin: 0 0 0 3%;
+    padding-top: 50px;
+    font-size: 34.25px;
+    font-size: 2 rem;
+    font-family: Bebas, Helvetica, sans-serif;
+    color: #d2213e;
+    width: 75%; }
+
+#advertise-perso #search {
+	width:50%;
+}
+
+#advertise-perso #search input[type="search"]{
+	margin-left:10%;
+	width:50%;
+	margin-top:5px;
+}
+
+#advertise-perso #search input[type="submit"]{
+	background:#d2213e;
+	color:#e5e4e4;
+	font-size:18px;
+	border-radius:3px;
+	margin-left:10%;
+	margin-top:5px;
+}
+
+#advertise-perso #search input[type="submit"] a {
+	text-decoration:none;
 }
 
 /* Content Main */
