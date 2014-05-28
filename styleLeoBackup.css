@@ -1,0 +1,197 @@
+body {
+background-color: #DCDCDC;
+
+margin-top:10px;
+margin-left:10px;
+margin-right:10px;
+margin-bottom:10px;
+
+}
+
+/* Header */
+#branding {
+
+height:500px;
+
+margin-top:10px;
+margin-left:10px;
+margin-right:10px;
+margin-bottom:10px;
+
+padding-top:50px;
+padding-bottom:10px;
+padding-right:50px;
+padding-left:50px;
+
+border-radius: 50px;
+
+background-image:url('img/panda.jpg')
+}
+
+#branding-small {
+height:250px;
+
+margin-top:10px;
+margin-left:10px;
+margin-right:10px;
+margin-bottom:10px;
+
+padding-top:10px;
+padding-bottom:10px;
+padding-right:10px;
+padding-left:10px;
+
+border-radius:10px;
+
+background-image:url('img/panda.jpg')
+}
+
+#site-title {
+font-size: 100px;
+font-family: Arial;
+color: black;
+}
+
+#site-description {
+}
+
+/* Advertise */
+
+#advertise {
+
+margin-top:10px;
+margin-left:10px;
+margin-right:10px;
+margin-bottom:10px;
+
+padding-top:50px;
+padding-bottom:10px;
+padding-right:50px;
+padding-left:50px;
+
+border-radius: 50px;
+
+background-color:white;
+}
+
+/* Content Main */
+#main {
+
+margin-top:10px;
+margin-left:10px;
+margin-right:10px;
+margin-bottom:10px;
+
+padding-top:50px;
+padding-bottom:10px;
+padding-right:50px;
+padding-left:50px;
+
+border-radius: 50px;
+
+background-color:white;
+}
+
+
+/* Grid */
+.grid {
+-webkit-column-count:3; /* Chrome, Safari, Opera */
+-moz-column-count:3; /* Firefox */
+column-count:3; 
+
+}
+
+.grid li {
+display:inline;
+}
+
+.grid .avatar {
+}
+
+.grid .info {
+}
+
+.grid .info .pseudo {
+}
+
+.grid .meta {
+}
+
+.grid .meta .followers {
+}
+
+/* Footer */
+
+#site-info {
+}
+
+#site-info #legal {
+}
+
+/* Main Perso */
+
+#perso {
+
+margin-top:10px;
+margin-left:10px;
+margin-right:10px;
+margin-bottom:10px;
+}
+
+#main-perso {
+
+width:72%;
+
+/*margin-left:0%;
+margin-right:3%;
+margin-top:0%;*/
+
+padding-top:20px;
+padding-bottom:20px;
+padding-right:10px;
+padding-left:10px;
+
+border-radius: 10px;
+float:left;
+background-color:white;
+}
+
+/* Widgets */
+
+#widgets {
+width:23%;
+/*margin-right:1%;
+margin-top:0%;*/
+margin-left:3%;
+background-color: white;
+float:left;
+border-radius:10px;
+}
+
+.widget {
+}
+
+.widget-title {
+}
+
+.widget-content {
+}
+
+#subscribers-number {
+}
+
+.widget .grid {
+}
+
+/* Videos */
+
+.videos {
+}
+
+#archives-videos {
+}
+
+video {
+width:240;
+height:180; 
+}
