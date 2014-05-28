@@ -75,16 +75,11 @@ footer #legal a {
 
 	background:#f7f7f7;
 	color:#222222;
-
 	vertical-align:center;
-
 	margin-top:20px;
-
-	padding: 10px;
-
+	padding: 0.5em;
 	font-family: Helvetica;
-	font-size:2em;
-	
+	font-size:1em;
 	border-top: 2px solid #e5e4e4;
 	border-bottom: 2px solid #e5e4e4;
 	
@@ -159,6 +154,7 @@ footer #legal a {
 	margin-left:10%;
 	width:50%;
 	margin-top:5px;
+	color: #696969;
 }
 
 #advertise-perso #search input[type="submit"]{
@@ -189,6 +185,67 @@ footer #legal a {
 	
 }
 
+/* Main Perso */
+#perso {
+  margin: 0 1em 0 1em;
+  padding: 5px;
+}
+
+#main-perso {
+  width: 75%;
+  
+  margin-left: 1%;
+  margin-right:2%;
+  float:left;
+
+  background-color: white; 
+  border-top: 2px solid #e5e4e4;
+  border-bottom: 2px solid #e5e4e4; 
+}
+
+#main-perso nav {
+	width:100%;
+	height: 50px;
+	background-color: #f7f7f7;
+	margin:0;
+}
+
+#main-perso h1 {
+	color:#d2213e;
+    font-family: Bebas, Helvetica, sans-serif;
+	text-align:center;
+	margin-bottom:0;
+}
+
+#main-perso h3 {
+	margin-top:0;
+
+	color:#696969;
+    font-family: Helvetica, sans-serif;
+	text-align:center;
+}
+
+
+#main-perso input[type="submit"]{
+	background:#d2213e;
+	color:#e5e4e4;
+	font-size:25px;
+	border-radius:3px;
+	margin-left:35%;
+	margin-top:5px;	
+}
+
+#main-perso input[type="submit"]#add-cam {
+	background:#d2213e;
+	color:#e5e4e4;
+	font-size:15px;
+	border-radius:3px;
+	float:right;
+	margin-right:10px;
+	margin-bottom:10px;
+	margin-top:5px;	
+}
+
 /* Grid */
 #ul-grid {
 	margin-left:auto;
@@ -200,14 +257,6 @@ footer #legal a {
   -webkit-column-count: auto; /* Chrome, Safari, Opera */
   -moz-column-count: auto; /* Firefox */
   column-count:auto;
-  
-/*  column-width:180px; */
-/*  -moz-column-width:180px; /* Firefox */
-/*  -wenkil-column-width:180px; /* Chrome, Safari, Opera */
-  
-/*  column-gap:5px;
-  -moz-column-gap:5px;
-  -webkit-column-gap:5px; */
   
 	column-width:20%;
 	-moz-column-width:20%; /* Firefox */
@@ -284,39 +333,107 @@ footer #legal a {
 	float:right;
 }
 
-/* Main Perso */
-#perso {
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  background-color: green;
-  white-space: nowrap; }
+#videos .grid {
 
-#perso > div {
-  white-space: nowrap;
-  display: inline-block; }
-
-#main-perso {
-  width: 64%;
-  /*margin-top:10px;*/
-  margin-left: 1%;
-  /*margin-right:10px;
-  margin-bottom:10px;
+  -webkit-column-count: auto; /* Chrome, Safari, Opera */
+  -moz-column-count: auto; /* Firefox */
+  column-count:auto;
   
-  padding-top:50px;
-  padding-bottom:10px;
-  padding-right:50px;
-  padding-left:50px;
-  border-radius: 50px;*/
-  background-color: white; }
+	column-width:50%;
+	-moz-column-width:50%; /* Firefox */
+	-wenkil-column-width:50%; /* Chrome, Safari, Opera */
+	
+}
+
+#videos .grid li {
+	display:inline-block;
+}
+.grid .player {
+	width:280px;
+	height:210px;
+	
+	padding:0px 0px 0px 0px;
+	margin-top:10px;
+}
 
 /* Widgets */
 #widgets {
-  width: 34%;
-  background-color: red; }
+  float:left;
+  width: 20%;
+  background-color: white; 
+  border-top: 2px solid #e5e4e4;
+  border-bottom: 2px solid #e5e4e4;
+}
 
 /* Videos */
 video {
-  width: 320;
-  height: 240; }
+  width: 280px;
+  height: 210px; 
+}
+
+/* Menu */
+
+#navigation {
+ margin: 0;
+ padding: 0 1em;
+ background: #000;
+ height: 3em;
+ list-style: none;
+}
+
+#navigation > li {
+ float: left;
+ height: 100%;
+ margin-right: 0.5em;
+ padding: 0 1em;
+}
+
+#navigation > li > a {
+ float: left;
+ height: 100%;
+ color: #d2213e;
+ text-decoration: none;
+ line-height: 3;
+ font-weight: bold;
+ text-transform: uppercase;
+}
+
+#navigation > li > a:hover {
+ color: #e5e4e4;
+ text-decoration: underline;
+}
+
+#navigation > li.sub {
+ position: relative;
+}
+#navigation > li.sub ul {
+ width: 10em;
+ margin: 0;
+ padding: 0.5em 0;
+ list-style: none;
+ background: #d2213e;
+ position: absolute;
+ top: -1000em;
+}
+
+#navigation > li.sub ul li {
+ width: 90%;
+ margin: 0 auto 0.3em auto;
+}
+
+#navigation > li.sub ul li a {
+ height: 100%;
+ display: block;
+ padding: 0.4em;
+ color: #fff;
+ font-weight: bold;
+ text-decoration: none;
+}
+
+#navigation > li.sub ul li a:hover {
+ background: #000;
+ text-decoration: underline;
+}
+#navigation > li.sub:hover ul {
+ top: 3em;
+}

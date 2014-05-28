@@ -27,35 +27,111 @@
     </div><!-- #site-description -->
 	
 	<div id="search">
-		<input type="search" value="Par lieu" /><br/>
-		<input type="search" value="Par pseudo" /><br/>
+		<input type="search" placeholder="Par lieu" /><br/>
+		<input type="search" placeholder="Par pseudo" /><br/>
 		<input type="submit" value="Rechercher" />     
 		<input type="submit" value="Au hasard" />
 	</div><!-- #join -->
 </div><!-- #advertise-perso -->
 
 <div id="perso">
+
 	<div id="main-perso">
 
-  <!-- nav [Watchroom] Archives(avec menu d&eacute;roulant) Abonnements Settings -->
+	<ul id="navigation">
+
+ <li><a href="#">Ma Watchroom</a></li>
+ <li class="sub">
+ 
+  <a href="#">Mes Archives</a>
+  
+  <ul>
+  
+   <li><a href="#">Aujourd'hui</a></li>
+   <li><a href="#">Hier</a></li>
+   <li><a href="#">Cette semaine</a></li>
+   <li><a href="#">Tout</a></li>
+  
+  </ul>
+ 
+ </li>
+
+ <li>
+  <a href="#">Mes Abonnements</a>
+ </li> 
+ <li>
+  <a href="#">Mon Profil</a>
+ </li>
+
+</ul><!-- #navigation -->
+
 	<div id="videos">
-	<h1>Videos</h1>
+	<h1>Videosurveillance de Odile</h1>
+	<h3>Actuellement, 42 Watchers veillent.</h3>
+	<input type="submit" value="Signaler un danger" />
     <ul class="grid">
       <li>
-		<video class="player" x_width="240" x_height="180" x_autoplay>
+		<div class="player">
+		<video x_autoplay muted>
 			<source src="vids/vikings.mp4" type="video/mp4">
 			<source src="vids/vikings.ogg" type="video/ogg">
 			Your browser does not support the video tag.
 		</video> 
-	  </li>
+		</div>
+	</li>
+	<li>
+		<div class="player">
+		<video x_autoplay muted>
+			<source src="vids/vikings.mp4" type="video/mp4">
+			<source src="vids/vikings.ogg" type="video/ogg">
+			Your browser does not support the video tag.
+		</video> 
+		</div>	</li>
+	<li>
+		<div class="player">
+		<video x_autoplay muted>
+			<source src="vids/vikings.mp4" type="video/mp4">
+			<source src="vids/vikings.ogg" type="video/ogg">
+			Your browser does not support the video tag.
+		</video> 
+		</div>	</li>
+	<li>
+		<div class="player">
+		<video x_autoplay muted>
+			<source src="vids/vikings.mp4" type="video/mp4">
+			<source src="vids/vikings.ogg" type="video/ogg">
+			Your browser does not support the video tag.
+		</video> 
+		</div>	  
+	</li>
+	<li>
+		<div class="player">
+		<video x_autoplay muted>
+			<source src="vids/vikings.mp4" type="video/mp4">
+			<source src="vids/vikings.ogg" type="video/ogg">
+			Your browser does not support the video tag.
+		</video> 
+		</div>	  
+	</li>
+	<li>
+		<div class="player">
+		<video x_autoplay muted>
+			<source src="vids/vikings.mp4" type="video/mp4">
+			<source src="vids/vikings.ogg" type="video/ogg">
+			Your browser does not support the video tag.
+		</video> 
+		</div>	  
+	</li>
+		
     </ul><!-- .grid -->
-    </div>
-	<!-- Button Add -->
-	<!-- Report ! (Button) -->
+		<input type="submit" id="add-cam" value="Ajouter une caméra" />
+    </div><!-- #videos -->
+
+
 	<!-- Comments -->
 	</div><!-- #main-perso -->
  
-   <div id="widgets">
+    <div id="widgets">
    
     <div class="widget">
       <h1 class="widget-title">Abonn&eacute;s</h1>
