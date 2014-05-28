@@ -1,0 +1,165 @@
+body {
+background-color: #DCDCDC;
+
+margin-top:10px;
+margin-left:10px;
+margin-right:10px;
+margin-bottom:10px;
+
+}
+
+/* Header */
+#branding {
+
+height:500px;
+
+margin-top:10px;
+margin-left:10px;
+margin-right:10px;
+margin-bottom:10px;
+
+padding-top:50px;
+padding-bottom:10px;
+padding-right:50px;
+padding-left:50px;
+
+border-radius: 50px;
+
+background-image:url('img/panda.jpg')
+}
+
+#site-title {
+font-size: 100px;
+font-family: Arial;
+color: black;
+}
+
+#site-description {
+}
+
+/* Content Main */
+#main {
+
+margin-top:10px;
+margin-left:10px;
+margin-right:10px;
+margin-bottom:10px;
+
+padding-top:50px;
+padding-bottom:10px;
+padding-right:50px;
+padding-left:50px;
+
+border-radius: 50px;
+
+background-color:white;
+}
+
+
+/* Grid */
+.grid {
+-webkit-column-count:3; /* Chrome, Safari, Opera */
+-moz-column-count:3; /* Firefox */
+column-count:3; 
+
+}
+
+.grid li {
+display:inline;
+}
+
+.grid .avatar {
+}
+
+.grid .info {
+}
+
+.grid .info .pseudo {
+}
+
+.grid .meta {
+}
+
+.grid .meta .followers {
+}
+
+/* Footer */
+
+#site-info {
+}
+
+#site-info #legal {
+}
+
+/* Main Perso */
+
+#perso {
+
+margin-top:10px;
+margin-left:10px;
+margin-right:10px;
+margin-bottom:10px;
+
+background-color:green;
+
+white-space: nowrap;
+}
+
+#perso > div {
+white-space: nowrap;
+display:inline-block;
+}
+
+#main-perso {
+
+width:64%;
+
+/*margin-top:10px;*/
+margin-left:1%;
+/*margin-right:10px;
+margin-bottom:10px;
+
+padding-top:50px;
+padding-bottom:10px;
+padding-right:50px;
+padding-left:50px;
+border-radius: 50px;*/
+
+background-color:white;
+}
+
+/* Widgets */
+
+#widgets {
+width:34%;
+
+background-color: red;
+}
+
+.widget {
+}
+
+.widget-title {
+}
+
+.widget-content {
+}
+
+#subscribers-number {
+}
+
+.widget .grid {
+}
+
+/* Videos */
+
+.videos {
+}
+
+#archives-videos {
+}
+
+video {
+width:320;
+height:240; 
+}
