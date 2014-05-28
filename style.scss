@@ -63,27 +63,18 @@ padding:0;
 
 margin:0;
 padding:5px;
-background: white;
-border-bottom: 2px solid $medium_grey;   
+background: $red2; 
     
     #site-title {
         margin:0;
         padding-top:5px;
         @include font-size(6);
         line-height: 0.8em;
-        color: $red;
+        color: $dark_grey;
         font-family:  $bebas;
         
-        .valarmorghulis {color: $red2;}
+        .valarmorghulis {color: $almost_white;}
     }
-    
-    #site-description {
-      margin:0;
-        @include font-size(2);
-        font-family: $bebas;
-        color: $dark_grey;
-        line-height: 0.8em;
-}
     
 }
 
@@ -91,11 +82,28 @@ border-bottom: 2px solid $medium_grey;
 /* Advertise */
 
 #advertise {
-
-margin:0;
+    
+    margin:0;
     padding: 0;
-background-color:black;
     height: 350px;
+    background: black url('img/eyes.png') no-repeat 80%;
+    
+        #site-description {
+        margin: 0 0 0 3%;
+            padding-top: 50px;
+        @include font-size(3.5);
+        font-family: $bebas;
+        color: $red2;
+        width: 75%;
+            
+            .speech {
+                font-family: Helvetica;
+                color: $medium_grey;
+                font-weight: 100;
+                @include font-size(2.5);
+            }
+}
+    
 }
 
 /* Content Main */

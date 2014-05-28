@@ -12,32 +12,38 @@ body {
 #branding {
   margin: 0;
   padding: 5px;
-  background: white;
-  border-bottom: 2px solid #e5e4e4; }
+  background: #d2213e; }
   #branding #site-title {
     margin: 0;
     padding-top: 5px;
     font-size: 93px;
     font-size: 6 rem;
     line-height: 0.8em;
-    color: #ef003c;
+    color: #222222;
     font-family: Bebas, Helvetica, sans-serif; }
     #branding #site-title .valarmorghulis {
-      color: #d2213e; }
-  #branding #site-description {
-    margin: 0;
-    font-size: 31px;
-    font-size: 2 rem;
-    font-family: Bebas, Helvetica, sans-serif;
-    color: #222222;
-    line-height: 0.8em; }
+      color: #f7f7f7; }
 
 /* Advertise */
 #advertise {
   margin: 0;
   padding: 0;
-  background-color: black;
-  height: 350px; }
+  height: 350px;
+  background: black url("img/eyes.png") no-repeat 80%; }
+  #advertise #site-description {
+    margin: 0 0 0 3%;
+    padding-top: 50px;
+    font-size: 54.25px;
+    font-size: 3.5 rem;
+    font-family: Bebas, Helvetica, sans-serif;
+    color: #d2213e;
+    width: 75%; }
+    #advertise #site-description .speech {
+      font-family: Helvetica;
+      color: #e5e4e4;
+      font-weight: 100;
+      font-size: 38.75px;
+      font-size: 2.5 rem; }
 
 /* Content Main */
 #main {
