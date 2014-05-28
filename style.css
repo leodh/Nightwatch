@@ -12,19 +12,22 @@ cursor:pointer;
 body {
   background-color: #f7f7f7;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  padding-bottom: 2em; }
 
-footer {
+#site-info {
+	margin-top:10px;
 	text-align: center;
 	font-size:1em;
+	width:100%;
 }
 
-footer #legal li {
-	display:inline-block;
+#site-info #legal li {
+	display:inline;
 	margin-right:20px;
 }
 
-footer #legal a {
+#site-info #legal a {
 	text-decoration:underline;
 	color:blue;
 }
@@ -483,12 +486,12 @@ video {
 	margin-top:20px
 	margin-right:20px;
 	margin-left:20px;
+	width:95%;
 }
 
 #comments input[type="submit"]{
 	font-size:18px;
 	margin-left:0;
-	float:left;
 }
 
 .comments_textarea{
