@@ -1,0 +1,38 @@
+/*.videogallery {
+	width:160px;
+	height:160px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+}
+
+.videogallery a{
+	display:-moz-inline-stack;
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+	position:relative;
+	vertical-align:bottom;
+	margin:0px;
+	width:160px;
+	font-family:Trebuchet,Tahoma,Arial,sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:center;
+	opacity:1;
+}
+
+.videogallery .videolb{display:none}
+.videogallery a img{
+	display:block;
+	width:160px;
+	height:160px;
+	border:none;
+	margin:0;
+}
+.videogallery a:hover{
+	text-decoration:underline;
+	opacity:0.87;
+}*/
